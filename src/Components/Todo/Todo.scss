@@ -1,0 +1,45 @@
+@import "../../Assets/scss/colors.scss";
+
+body {
+  background-color: black;
+  color: green;
+}
+li {
+  list-style-type: none;
+  border: 2px solid green;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+li:hover {
+  list-style-type: disc;
+  text-decoration: underline;
+}
+.input--text {
+  background-color: transparent;
+  color: green;
+  width: 400px;
+  padding: 10px;
+  border: 2px solid green;
+  text-align: center;
+
+  outline: none;
+}
+.form {
+  width: 500px;
+  margin: 0 auto;
+}
+button {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: green;
+  border-color: green;
+  outline: none;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+.checkbox:checked {
+  color: green;
+}
